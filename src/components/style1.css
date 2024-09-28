@@ -1,0 +1,161 @@
+*,body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 28px;
+    padding: 25px;
+}
+
+.container{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    
+}
+
+
+.sidebar{
+    /* width: 12rem; */
+}
+
+ul{
+      border-right:2px solid rgb(247, 5, 5) ;
+}
+
+.dialog{
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 999;
+    color: black;
+    background-color: white;
+    padding: 23px;
+    display: none;
+    width: 100%;
+}
+
+.dialog_d{
+    display: block;
+}
+
+
+.ul,li{
+    margin-top: 12px;
+   
+    padding-right: 0;
+
+}
+.list{
+    border-bottom:2px solid rgb(247, 5, 5);
+
+   padding: 2rem;
+    
+}
+.container2{
+    width: 100%;
+}
+
+table{
+   
+    border: 2px solid red;
+    width: 100%;
+    margin-right: 10rem;
+    text-align: center;
+    margin-top: 12px;
+    
+}
+
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+h1{
+    font-size: 43px;
+    padding: 0;
+}
+.close{
+    font-size: 23px;
+}
+.close:hover{
+    color: red;
+}
+td,th{
+    padding: 23px;
+    border: 2px solid red;
+}
+
+
+.button{
+    border:2px solid rgb(247, 5, 5);
+    margin-left: 12px;
+    padding: 10px;
+    padding:12px;
+    border-radius: 13px;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+.b2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+}
+.cont-table{
+    /* overflow-y: scroll; */
+    overflow-x: scroll;
+}
+
+.purchaseForm{
+
+    display: flex;
+}
+
+
+.KPI{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 4px;
+    margin-top: 23px;
+}
+
+.card{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 24px;
+    border-radius: 10px;
+    width: 10rem;
+}
+.input{
+    margin: 12px;
+    color: rgba(12, 10, 10, 0.823);
+    padding: 12px;
+}
+
+.total{
+    display: flex;
+    padding: 23px;
+    justify-content: space-around;
+    width: fit-content;
+    font-size: 23px;
+}
