@@ -272,6 +272,7 @@ const Customer = () => {
             className="button"
             style={{ float: "right" }}
             onClick={() => setDisplay(!display)}
+            disabled={loading}
           >
             {loading ? "loading..." : "Add Farmer"}
           </button>
@@ -328,7 +329,7 @@ function PurchaseEntry({onPurchase,b,o,i}){
     
     const handleSubmit=(e)=>{
        
-     
+         e.preventDefault();
          console.log("hello")
         onPurchase(item, quantity, paid);
         setQuantity(0);
