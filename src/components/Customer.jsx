@@ -144,7 +144,7 @@ const Customer = () => {
                 setRevenue((prev)=>prev+parseInt(amount))
               }
               else{
-                print(quantity)
+               
                 updateCustomers[index].totalBalance.push({
                   id:updateCustomers[index].totalBalance.length+1,
                   Date:"2024-07-08",
@@ -156,7 +156,7 @@ const Customer = () => {
                   ]
                 })
               }
-              console.log(customers)
+            
               setCUstomers(updateCustomers);
     }
 
@@ -329,8 +329,9 @@ function PurchaseEntry({onPurchase,b,o,i}){
     const handleSubmit=(e)=>{
        
      
-        onPurchase(item,quantity,paid);
-        setQuantity(0)
+         console.log("hello")
+        onPurchase(item, quantity, paid);
+        setQuantity(0);
         setPaid(false);
     }
 
