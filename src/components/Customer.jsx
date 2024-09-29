@@ -242,7 +242,7 @@ const Customer = () => {
             />
           </div>
           <div>
-            <button className="button b2">Submit</button>
+            <button className="button b2" disabled={loading}>Submit</button>
           </div>
         </form>
       </div>
