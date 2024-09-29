@@ -74,20 +74,11 @@ const Customer = () => {
                      (k) => k.id != i
                    );
 
-                   
-                     
-               
               })
-
-             
-
-
               setCUstomers(customer);
               console.log(customers)
    }
-
-
-
+ 
     const  onDisplay=(index)=>{
       setBalanceDisplay(true)
       const  balance=customers[index].totalBalance
@@ -242,7 +233,7 @@ const Customer = () => {
             />
           </div>
           <div>
-            <button className="button b2" disabled={loading}>Submit</button>
+            <button className="button b2" disabled={loading}>{loading?'loading...':"Submit"}</button>
           </div>
         </form>
       </div>

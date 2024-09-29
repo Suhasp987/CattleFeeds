@@ -150,6 +150,24 @@ button:hover{
     margin: 12px;
     color: rgba(12, 10, 10, 0.823);
     padding: 12px;
+    width: min-content;
+
+}
+
+@media(max-width:357px){
+    input{
+        width:30%;
+        margin-left: 0px;
+        padding-left: 0;
+    }
+}
+
+@media(max-width:319px){
+    input{
+        width:10%;
+        margin-left:0px;
+        padding-left: 0;
+    }
 }
 
 .total{
