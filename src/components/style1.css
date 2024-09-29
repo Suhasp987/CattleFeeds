@@ -150,10 +150,16 @@ button:hover{
     margin: 12px;
     color: rgba(12, 10, 10, 0.823);
     padding: 12px;
-    width: 100%;
-    max-width: 100%;
+    /* width: 100%;
+    max-width: 100%; */
     box-sizing: border-box;
 
+}
+
+.input1{
+     margin: 12px;
+    color: rgba(12, 10, 10, 0.823);
+    padding: 12px;
 }
 
 

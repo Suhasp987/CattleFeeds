@@ -329,13 +329,13 @@ function PurchaseEntry({onPurchase,b,o,i}){
 
      return (
        <form onSubmit={handleSubmit} className='purchaseForm'>
-         <select value={item} onChange={(e) => setItem(e.target.value)} className='input'>
+         <select value={item} onChange={(e) => setItem(e.target.value)} className='input1'>
            <option value="busa" disabled={b<=0}>Boosa</option>
            <option value="ottu_busa" disabled={o<=0}>Ottu Boosa</option>
            <option value="indi" disabled={i<=0}>Indi</option>
          </select>
 
-         <input  className='input'
+         <input  className='input1'
            type="number"
            placeholder="Quantity"
            value={quantity}
@@ -347,7 +347,7 @@ function PurchaseEntry({onPurchase,b,o,i}){
          <label>
            <input
              type="checkbox"
-             className='input'
+             className='input1'
              checked={paid}
              onChange={() => setPaid(!paid)}
            />
